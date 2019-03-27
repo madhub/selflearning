@@ -6,6 +6,8 @@
 * [Java GC explained](http://www.thejavaprogrammer.com/java-garbage-collection/)
 * [Design Pattern in Java](https://github.com/iluwatar/java-design-patterns)
 * [Better Java](https://github.com/cxxr/better-java)
+* [java-11 gems](https://dzone.com/articles/moving-to-java-11-rediscover-some-quotcode-gemsquo)
+  * example : InputStream.nullInputStream, OutputStream.nullOutputStream,readNBytes
 ## Java 9 Features
 * [New Java9 Features](https://aboullaite.me/wrapping-up-java-9-new-features/)
 * [Stream enhancements](https://aboullaite.me/java-9-enhancements-optional-stream/)
