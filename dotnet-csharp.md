@@ -2,6 +2,7 @@
 * P/Invoking using Span<T> .[ Span<T> for pinvoke](https://medium.com/@antao.almada/p-invoking-using-span-t-a398b86f95d3)
  * [How to Create, Use, and Debug .NET application Crash Dumps in 2019](https://michaelscodingspot.com/how-to-create-use-and-debug-net-application-crash-dumps-in-2019/#Debug-Dumps)
 * [Asynchronous Programming in .NET – Common Mistakes and Best Practices](https://www.codeproject.com/Articles/1246010/Asynchronous-Programming-in-NET-Common-Mistakes-an)
+* (Various ways of implementing Job Queue implementation in .NET, TPL Dataflow,System.Threading.Channels etc) (https://michaelscodingspot.com/c-job-queues/)
 
 # CSharp
 * [IAsyncEnumerable In C# 8, Why do need it ?](https://dotnetcoretutorials.com/2019/01/09/iasyncenumerable-in-c-8/)
