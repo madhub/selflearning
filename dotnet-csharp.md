@@ -3,7 +3,9 @@
  * [How to Create, Use, and Debug .NET application Crash Dumps in 2019](https://michaelscodingspot.com/how-to-create-use-and-debug-net-application-crash-dumps-in-2019/#Debug-Dumps)
 * [Asynchronous Programming in .NET – Common Mistakes and Best Practices](https://www.codeproject.com/Articles/1246010/Asynchronous-Programming-in-NET-Common-Mistakes-an)
 * (Various ways of implementing Job Queue implementation in .NET, TPL Dataflow,System.Threading.Channels etc) (https://michaelscodingspot.com/c-job-queues/)
- *[8 Ways You can Cause Memory Leaks in .NET] (https://www.reddit.com/r/dotnet/comments/bdf49r/8_ways_you_can_cause_memory_leaks_in_net/)
+* [8 Ways You can Cause Memory Leaks in .NET] (https://www.reddit.com/r/dotnet/comments/bdf49r/8_ways_you_can_cause_memory_leaks_in_net/)
+* [Coding Guidelines for C#](https://github.com/justinamiller/Coding-Standards)
+* [7 Debugging Techniques for when your .NET application Freezes (hangs) ](https://michaelscodingspot.com/7-debugging-techniques-for-when-your-net-application-freezes-hangs/)
 
 # CSharp
 * [IAsyncEnumerable In C# 8, Why do need it ?](https://dotnetcoretutorials.com/2019/01/09/iasyncenumerable-in-c-8/)
