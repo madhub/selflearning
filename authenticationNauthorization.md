@@ -16,3 +16,35 @@ OAuth2 tokens can be validated using the following methods:
 ````
 ## Validating token at the gateway level
 <img src="https://lh4.googleusercontent.com/2gIpJrIee-2UxyIFR_f-29RN8NT21wqqZhJ9Q2UUy5XLpaSyd4e1_dLsg3lLH3ZqWWMHGKDPfbsvDXNxoaWtAuKYE-7ZenLoFde37niMa9LSsxUyT5CJnU0FKxac6FWipXjnW9OH" alt="Validating token at the gateway level"/>
+
+## JWT Bearer Client Authentication flow
+```plantuml
+@startuml
+
+title JWT Beare Client Authentication
+
+
+participantgroup#azure Client can be issuer
+participant Client
+participant Issuer
+end 
+participant Authorization Server
+activecolor #lightyellow
+autonumber 
+activate Client
+activate Issuer
+activate Authorization Server
+
+Client->Issuer:Request JWT
+note left of Issuer:--POST /iam/access_token HTTP/1.1\n\nContent-Type: application/x-www-form-urlencoded\n\ngrant_type=authorization_code&\ncode=362ad374-735c-4f69-aa8e-bf384f8602de&\nclient_assertion_type=urn%3Aietf%3Aparams%3Aoauth%3A\n client-assertion-type%3Ajwt-bearer&\nclient_assertion=eyAiYWxnIjogIlJTMjU2IiB9.eyAic3ViIjogImp3...
+Client<--Issuer: JWT(signed)
+Client->Authorization Server: POST with client_assetion=the jwt,\n client_assertion_type=  urn:ietf:params:oauth:client-assertion-type:jwt-bearer
+Authorization Server->Authorization Server: Validate  JWT
+Client<--Authorization Server: Response( with access token)
+
+
+
+
+note over Authorization Server:Reference https://backstage.forgerock.com/docs/am/5.5/oauth2-guide/
+@enduml
+```
