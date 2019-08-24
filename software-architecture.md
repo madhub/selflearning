@@ -4,3 +4,7 @@
 
 * [vertical-slice-architecture](https://jimmybogard.com/vertical-slice-architecture/)
 * [Onion Architecture In ASP.NET Core MVC](https://www.c-sharpcorner.com/article/onion-architecture-in-asp-net-core-mvc/)
+* Messaging is a great way to build loosely coupled, scalable, and reliable systems
+* Design tips for building scalable systems 
+  * Asynchronouse message based
+  * Create stateless application or keeping state outside the application
