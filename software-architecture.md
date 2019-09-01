@@ -8,3 +8,5 @@
 * Design tips for building scalable systems 
   * Asynchronouse message based
   * Create stateless application or keeping state outside the application
+* [Service Connector Pattern](http://www.servicedesignpatterns.com/WebServiceInfrastructures/ServiceConnector). There are two types of Service Connectors. The first is the Service Proxy (a.k.a. Proxy). This type of connector is used with RPC APIs and Message APIs. The second type is the Service Gateway, which is commonly used with Resource APIs. Unlike service proxies, they usually aren't produced by code generation tools. 
+    * 
