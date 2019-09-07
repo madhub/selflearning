@@ -8,4 +8,5 @@
      * You expect that unrelated classes would implement your interface. For example, the interfaces Comparable and Cloneable are implemented by many unrelated classes
      * You want to specify the behavior of a particular data type, but not concerned about who implements its behavior
      * You want to take advantage of multiple inheritances
+ * [Concreate Example of Command Pattern](https://www.javacodegeeks.com/2019/09/command-design-pattern-in-java.html)
 
