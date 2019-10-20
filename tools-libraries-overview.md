@@ -3,3 +3,4 @@
 * [Redis usecase in a Microservices Architecture ](https://dzone.com/articles/redis-in-a-microservices-architecture)
 * [Understanding Telerik Fiddler as a Proxy](https://dzone.com/articles/understanding-telerik-fiddler-as-a-proxy)
 * [OpenPDF A Java Library for PDF creation](https://github.com/LibrePDF/OpenPDF/releases/tag/1.3.0)
+* [List of software SaaS, PaaS, IaaS, etc. and other offerings that have free tiers for developers](https://free-for.dev/#/)
