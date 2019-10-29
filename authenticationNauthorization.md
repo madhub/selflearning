@@ -1,3 +1,5 @@
+[Authentication and Authorization: Mastering Security including API ](https://dzone.com/articles/authentication-cluster)
+
 [oauth2-tips-token-validation](https://dzone.com/articles/oauth2-tips-token-validation)
 ````
 Bearer Token Types
