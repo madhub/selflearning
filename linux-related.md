@@ -3,3 +3,5 @@
 * [Debugging using strace](https://theartofmachinery.com/2019/11/14/deployment_debugging_strace.html)
 * Network Layers & Tools
 * ![image](https://user-images.githubusercontent.com/8907962/41920173-c3586a84-797d-11e8-8521-6b326e43bbe5.png)
+* [Redhat Networking Guides](https://www.redhat.com/sysadmin/networking-guides)
+   * [A beginner's guide to network troubleshooting in Linux](https://www.redhat.com/sysadmin/beginners-guide-network-troubleshooting-linux)
