@@ -6,3 +6,4 @@
 * [OAuth 2.0 and OpenID Connect in plain English](https://www.youtube.com/watch?v=996OiexHze0)
 * [awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)
 * [System Design Primer](https://github.com/donnemartin/system-design-primer)
+* [Scaling 100k users](https://alexpareto.com/scalability/systems/2020/02/03/scaling-100k.html)
