@@ -9,4 +9,7 @@
      * You want to specify the behavior of a particular data type, but not concerned about who implements its behavior
      * You want to take advantage of multiple inheritances
  * [Concreate Example of Command Pattern](https://www.javacodegeeks.com/2019/09/command-design-pattern-in-java.html)
+ * [Example of Request Interceptor](https://kafka.apache.org/0100/javadoc/org/apache/kafka/clients/producer/ProducerInterceptor.html)
+   * Kafka `ProducerInterceptor` intercept the request before sent to the Kafka server.
+   * `Configurable` interface  allows to configure the `ProducerInterceptor` with values needed to function. `Configurable` interface useful when plugins are instantiated by reflection with default constuctor & initialized later with generic map of key/values
 
