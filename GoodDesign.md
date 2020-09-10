@@ -12,4 +12,7 @@
  * [Example of Request Interceptor](https://kafka.apache.org/0100/javadoc/org/apache/kafka/clients/producer/ProducerInterceptor.html)
    * Kafka `ProducerInterceptor` intercept the request before sent to the Kafka server.
    * `Configurable` interface  allows to configure the `ProducerInterceptor` with values needed to function. `Configurable` interface useful when plugins are instantiated by reflection with default constuctor & initialized later with generic map of key/values
-
+ * Well-known principle of the OOP called Composition over Inheritance, which states that "classes should achieve polymorphic behavior and code reuse by their composition (by containing instances of other classes that implement the desired functionality) rather than inheritance from a base or parent class."
+   * ![composition and aggregation](https://atomicobject.com/uploads/archive/images/UML_CompositionAggregation.png)
+   * More info (https://atomicobject.com/resources/oo-programming/object-oriented-aggregation)
+ 
