@@ -15,4 +15,8 @@
  * Well-known principle of the OOP called Composition over Inheritance, which states that "classes should achieve polymorphic behavior and code reuse by their composition (by containing instances of other classes that implement the desired functionality) rather than inheritance from a base or parent class."
    * ![composition and aggregation](https://atomicobject.com/uploads/archive/images/UML_CompositionAggregation.png)
    * More info (https://atomicobject.com/resources/oo-programming/object-oriented-aggregation)
+   * Open/Close Solid Principle . Code should be open to extension , but closed for modification
+    * Prefer maintaining exitsting software through new classes 
+    * extend the system with new behavior without modify existing classes
+   
  
